@@ -1,0 +1,45 @@
+body,html{
+	height:100%;
+	width:100%;
+	font-family:Trirong , cambria;
+	background: url(header.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+	
+h1{
+	font-size:3em;
+	color:#e2dbdb;
+}
+
+hr{
+	border-color: #cc0000;
+	border-width: 3px;
+	max-width:70px; /* This will set customised width*/
+}
+.buffer{
+	height:10rem;
+}	
+
+.btn-xl{
+	padding: 2rem,3rem;
+}
+
+.btn{
+	font-weight: 3rem;
+	border-radius: 300px;
+	text-transform:uppercase;
+}
+
+.btn-primary{
+	background: linear-gradient(to top left, #ff6600 0%, #ff66ff 100%);
+	border: 1px solid #e2dbdb;
+}
+
+.btn-primary:hover{
+	background: linear-gradient(to top left, #cc0000 0%, #cc00cc 100%);
+	border: 1px solid #e2dbdb;
+	border-width: 3px;
+}
